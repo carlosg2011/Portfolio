@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #00131A;
+}
+
+
+/* Cabeçalho */
+
+.cabecalho{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000f14;
+    padding: 25px
+}
+
+span{ 
+    
+     background: linear-gradient(to right, #304AE0, #00e1ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.opcoes{
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.opcoes a{
+    color:white;
+    text-decoration: none;
+}
+
+.titulo{
+    color: white;
+}
+
+#contato{
+    border-radius: 20px;
+    padding: 8px;
+    width: 110px;
+    margin-top: 3px;
+    background: linear-gradient(to right,#304AE0, #22b7ca);
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+/* ______________________________________________________________________________________________________________ */
+
+/* Conteudo */
+
+/* Apresentação */
+
+.sessao{
+    display: flex;
+    gap: 80px;
+    margin-top: 65px;
+    margin-left: 120px;
+    margin-right: 390px;
+}
+
+.apresentacao{
+    text-align: end;
+    color:white;
+    margin-top: 50px;
+}
+
+.apresentacao h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.apresentacao h2{
+    margin-bottom: 20px;
+}
+
+.apresentacao p{
+    margin-bottom: 10px;
+    font-size: 15px;
+} 
+
+.redes{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.redes li{
+    display: flex;
+    padding: 5px;
+    border-radius: 60%;
+    border: solid 1px #00b7ff;
+}
+
+.imagem img{
+    border-radius: 100%;
+    width: 250%;
+    box-shadow: 0px 0px 30px  #00b7ff;
+
+}
+
+#b1{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px  #00b7ff;
+    background-color: #00b7ff;
+    font-weight: 500;
+}
+
+#b2{
+    padding: 5px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: solid 1px #00b7ff;
+    color: #00b7ff;
+    margin-left: 5px;
+}
